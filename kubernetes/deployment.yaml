@@ -26,6 +26,7 @@ spec:
       containers:
       - name: go-app
         image: vkvishnu/go-app:1.0.0
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
         env:
