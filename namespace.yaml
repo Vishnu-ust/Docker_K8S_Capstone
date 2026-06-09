@@ -1,7 +1,0 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: capstone
-  labels:
-    project: docker-k8s-capstone
-    owner: vishnu
